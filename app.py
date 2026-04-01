@@ -13,7 +13,7 @@ def get_posts():
     response = requests.request("GET", url, headers=headers, data=payload)
     return jsonify({
         "data": response.json(),
-        "status": "Successfully triggered auto deployment BY SPANDANA",
+        "status": "Successfully triggered auto deployment BY SPANDU",
         "status_code": 500
     })
 
