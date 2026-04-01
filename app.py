@@ -13,8 +13,8 @@ def get_posts():
     response = requests.request("GET", url, headers=headers, data=payload)
     return jsonify({
         "data": response.json(),
-        "status": "success",
-        "status_code": 200
+        "status": "Spandana",
+        "status_code": 500
     })
 
 @app.route('/comments')
